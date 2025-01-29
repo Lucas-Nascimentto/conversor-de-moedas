@@ -12,40 +12,40 @@
     <img class="logo" src="./assets/logo.png" alt="money converter logo">
 
     <main>
-        <select name="" id="">
-            <option value="">R$ Real brasileiro</option>
-            <option value="">US$ Dólar americano</option>
-            <option value="">€ Euro</option>
-            <option value="">£ Libra</option>
-            <option value=""> ₿ Bitcoin</option>
+        <select name="" id="first-select">
+            <option value="real">R$ Real brasileiro</option>
+            <option value="dolar">US$ Dólar americano</option>
+            <option value="euro">€ Euro</option>
+            <option value="libra">£ Libra</option>
+            <option value="bitcoin"> ₿ Bitcoin</option>
         </select>
 
-        <select name="" id="">
-            <option value="">US$ Dólar americano</option>
-            <option value="">R$ Real brasileiro</option>
-            <option value="">€ Euro</option>
-            <option value="">£ Libra</option>
-            <option value=""> ₿ Bitcoin</option>
+        <select name="" id="second-selected">
+            <option value="dolar">US$ Dólar americano</option>
+            <option value="real">R$ Real brasileiro</option>
+            <option value="euro">€ Euro</option>
+            <option value="libra">£ Libra</option>
+            <option value="bitcoin"> ₿ Bitcoin</option>
         </select>
 
         <input placeholder="Valor" type="text">
 
-        <button></button>
+        <button>Converter</button>
 
         <section>
             <div>
-                <img src="./assets/brasil 2.png" alt="logo da moeda brasileira">
-                <p>Real</p>
-                <p>R$ 0.00</p>
+                <img id="initial-image-currency"  src="./assets/brasil 2.png" alt="logo da moeda brasileira">
+                <p id="initial-currency-name" >Real</p>
+                <p class="money" id="starting-currency">R$ 0.00</p>
 
             </div>
 
-            <img src="./assets/Vector.png" alt="arrow">
+            <img class="arrow" src="./assets/Decalque para Piso Pessoal Direcional Divertido e Vibrante Gradiente Azul-escuro Ciano Lilás.png" alt="arrow">
 
             <div>
-                <img src="./assets/estados-unidos (1) 1.png" alt="logo da moeda americana">
-                <p>Dólar</p>
-                <p>US$ 0.00</p>
+                <img id="final-image-currency" src="./assets/estados-unidos (1) 1.png" alt="logo da moeda americana">
+                <p id="final-currency-name">Dólar</p>
+                <p class="money" id="result-money">US$ 0.00</p>
             </div>
         </section>
     </main>

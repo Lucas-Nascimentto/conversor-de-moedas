@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background: #007BFF;
+    font-family: "Roboto", serif;
 }
 
 .logo{
@@ -16,22 +19,90 @@ main{
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 20vw;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
     border-radius: 1rem;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 select, input{
+    margin-top: 1rem;
     background-color: #FFFFFF;
-    height: 3rem;
-    border: 0.1rem solid black;
+    height: 5vh;
+    width: 17vw;
+    border: 0.15rem solid black;
     border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    padding-left: 0.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #555555;
 }
 
 
 option{
     background-color: #FFFFFF;
 }
+
+button{
+    border: none;
+    height: 5vh;
+    width: 17vw;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 1rem auto 1rem auto;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+section{
+    border: 0.15rem solid #007BFF;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    padding: 1rem;
+}
+
+div{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section img{
+    background-color: #FFFFFF;
+}
+
+p{
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 0.9rem;
+    color: #777777;
+}
+
+.money{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #555555;
+}
+
+.arrow{
+    height: 7vh;
+}
+
+
+
+
